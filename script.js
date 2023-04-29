@@ -1,4 +1,5 @@
 // program to convert decimal to binary
+const num = parseInt(prompt('Enter a decimal number: '));
 function decimalToBinary(num){
     let binaryStr = ""
     while(num>0){
